@@ -16,7 +16,11 @@
     "url": "http://blog.kaltepoth.de/"
   },
   "main": "src/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
   "devDependencies": {
-    "metalsmith": "^2.3.0"
+    "metalsmith": "^2.3.0",
+    "mocha": "^3.2.0"
   }
 }
