@@ -1,0 +1,11 @@
+{
+  "name": "metalsmith-build-info",
+  "version": "1.0.0",
+  "description": "Metalsmith plugin to add various build infos to the metadata.",
+  "main": "src/index.js",
+  "author": "Christian Kaltepoth <christian@kaltepoth.de>",
+  "license": "MIT",
+  "devDependencies": {
+    "metalsmith": "^2.3.0"
+  }
+}
