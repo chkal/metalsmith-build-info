@@ -1,6 +1,6 @@
 {
   "name": "metalsmith-build-info",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Metalsmith plugin to add various build infos to the metadata.",
   "keywords": [
     "metalsmith",
