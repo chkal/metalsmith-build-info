@@ -2,9 +2,20 @@
   "name": "metalsmith-build-info",
   "version": "1.0.0",
   "description": "Metalsmith plugin to add various build infos to the metadata.",
-  "main": "src/index.js",
-  "author": "Christian Kaltepoth <christian@kaltepoth.de>",
+  "keywords": [
+    "metalsmith",
+    "buildinfo",
+    "date"
+  ],
+  "homepage": "https://github.com/chkal/metalsmith-build-info",
+  "repository": "git@github.com:chkal/metalsmith-build-info.git",
   "license": "MIT",
+  "author": {
+    "name": "Christian Kaltepoth",
+    "email": "christian@kaltepoth.de",
+    "url": "http://blog.kaltepoth.de/"
+  },
+  "main": "src/index.js",
   "devDependencies": {
     "metalsmith": "^2.3.0"
   }
