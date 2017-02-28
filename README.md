@@ -1,5 +1,8 @@
 # metalsmith-build-info
 
+[![npm](https://img.shields.io/npm/v/metalsmith-build-info.svg)](https://www.npmjs.com/package/metalsmith-build-info)
+[![Build Status](https://travis-ci.org/chkal/metalsmith-build-info.svg?branch=master)](https://travis-ci.org/chkal/metalsmith-build-info)
+
 Metalsmith plugin to add various build infos to the metadata.
 
 ## Installation
