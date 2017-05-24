@@ -71,5 +71,16 @@ describe("Should set metadata", function () {
     });
 
   });
-
+  
+  it("Should add Metalsmith version", function (done) {
+    var pjson = require('metalsmith/package.json');
+    
+    metalsmith.build(function (err) {
+      if (err) {
+        done(err);
+      }
+      assert.equal(pjson.version, metalsmith.metadata().buildinfo.version);
+      done();
+    });
+  })
 });

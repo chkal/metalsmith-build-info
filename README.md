@@ -31,6 +31,7 @@ The plugin will set the following metadata:
     is currently running on (i.e. `x64`).
   * `buildinfo.platform`: String  identifying the operating system platform on which the 
     Node.js process is running on (i.e. `linux`).
+  * `buildinfo.version`: The version of Metalsmith used to generate the site (i.e. `2.3.0`)
 
 ## License
 
